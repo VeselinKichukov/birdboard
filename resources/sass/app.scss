@@ -3,6 +3,10 @@
 
 // Variables
 @import 'variables';
+@import 'components/button';
+@import 'components/card';
+@import 'components/button-outlined';
+@import 'components/dropdown-menu-link';
 
 // Bootstrap
 // @import '~bootstrap/scss/bootstrap';
@@ -13,11 +17,9 @@
 
 @tailwind utilities;
 
-.button {
-    @apply .text-white bg-blue-50 .no-underline .rounded-lg .text-sm .py-2 .px-5;
-    box-shadow: 0 2px 7px 0 #b0eaff;
-}
 
-.card{
-    @apply .bg-white p-5 rounded-lg shadow;
-}
+
+
+
+
+

@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a485f233-cb80-4efa-be30-299655f8416d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a485f233-cb80-4efa-be30-299655f8416d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BirdboardForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Dropdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/button-outlined.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components/dropdown-menu-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -108,29 +133,24 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1WsxsCAQmAmQw8kxvMYU4rRPmYO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\birdboard\resources\views\projects\activity" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="PHPUnit.TaskTest.it_can_be_completed">
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
     <configuration name="ManageProjectsTest.guests_cannot_manage_projects" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="guests_cannot_manage_projects" scope="Method" />
       <method v="2" />
@@ -143,12 +163,32 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.ManageProjectsTest.guests_cannot_manage_projects" />
+      <item itemvalue="PHPUnit.TaskTest.it_can_be_completed" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <item itemvalue="PHPUnit.TaskTest.it_can_be_completed" />
-        <item itemvalue="PHPUnit.ManageProjectsTest.guests_cannot_manage_projects" />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
-    </recent_temporary>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,11 +204,45 @@
       <workItem from="1580138307397" duration="21782000" />
       <workItem from="1580306962908" duration="75901000" />
       <workItem from="1581005948960" duration="7231000" />
+      <workItem from="1581350999968" duration="280000" />
+      <workItem from="1581351406639" duration="2296000" />
+      <workItem from="1581356407137" duration="3602000" />
+      <workItem from="1581422010955" duration="33305000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="384" y="244" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581524136166">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="384" y="244" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.823@0.23.1440.823" timestamp="1581524136166" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581360204114">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581360204114" />
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1581422011114">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-268.-1080.1920.1080@0.0.1440.900" timestamp="1581422011114" />
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1581356426790" />
+    <state x="382" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581524001130">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="382" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.823@0.23.1440.823" timestamp="1581524001130" />
+    <state x="378" y="101" width="837" height="667" key="find.popup" timestamp="1581502339849">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="378" y="85" width="683" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1581359091401" />
+    <state x="378" y="101" width="837" height="667" key="find.popup/0.23.1440.823/-268.-1057.1920.1057@0.23.1440.823" timestamp="1581502339849" />
+    <state x="385" y="202" width="670" height="619" key="search.everywhere.popup" timestamp="1581528492802">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581360155030" />
+    <state x="385" y="202" width="670" height="619" key="search.everywhere.popup/0.23.1440.823/-268.-1057.1920.1057@0.23.1440.823" timestamp="1581528492802" />
+    <state x="385" y="202" width="670" height="619" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1581518191156" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

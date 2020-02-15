@@ -1,3 +1,56 @@
+.button {
+  color: #fff;
+  background-color: #47cdff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  box-shadow: 0 2px 7px 0 #b0eaff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
+}
+
+.button-outlined {
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-width: 1px;
+  border-color: #47cdff;
+  color: #47cdff;
+  box-shadow: 0 2px 7px 0 #b0eaff;
+}
+
+.dropdown-toggle > button:focus {
+  outline: 0;
+}
+
+.dropdown-menu-link {
+  display: block;
+  font-size: 0.875rem;
+  text-decoration: none;
+  line-height: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.dropdown-menu-link:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -11475,26 +11528,6 @@ video {
 
 .z-auto {
   z-index: auto;
-}
-
-.button {
-  color: #fff;
-  background-color: #47cdff;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  font-size: 0.875rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  box-shadow: 0 2px 7px 0 #b0eaff;
-}
-
-.card {
-  background-color: #fff;
-  padding: 1.25rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
 }
 
 @media (min-width: 640px) {
